@@ -12,7 +12,7 @@ export class CreatePollDto {
 
   @IsString()
   @Length(1, 25)
-  naem: string;
+  name: string;
 }
 
 export class JoinPollDto {
